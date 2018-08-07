@@ -4,25 +4,28 @@
     background-image: url("https://i.imgur.com/UVcMMbv.png");
 }
 
+.charactersheet.tab-pane.charsheet.lang-en {
+    padding-left: 50px;
+}
 /*-----text-----*/
 
 h5 {
-    text-shadow: 0px 0px 10px black;
+    text-shadow: 0px 0px 1px black;
     color:black;
 }
 
 th {
-    text-shadow: 0px 0px 10px black;
+    text-shadow: 0px 0px 1px black;
     color:black;
 }
 
 h4 {
-    text-shadow: 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white;
+    text-shadow: 0px 0px 1px white, 0px 0px 10px white, 0px 0px 1px white;
     color:black;
 }
 
 h3 {
-    text-shadow: 0px 0px 10px black, 0px 0px 10px black, 0px 0px 10px black ;
+    text-shadow: 0px 0px 1px black, 0px 0px 10px black, 0px 0px 1px black ;
     color:whitesmoke;
 }
 
@@ -32,7 +35,7 @@ h2 {
 }
 
 {
-    text-shadow: 0px 0px 10px black, 0px 0px 10px black, 0px 0px 10px black ;
+    text-shadow: 0px 0px 1px black, 0px 0px 1px black, 0px 0px 1px black ;
     color:whitesmoke;
 }
 

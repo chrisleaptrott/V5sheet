@@ -1,12 +1,10 @@
 /*-----background-----*/
 
 .charsheet {
-    background-image: url("https://i.imgur.com/UVcMMbv.png");
+ background-image: url("https://i.imgur.com/avq8d2i.png"); 
 }
 
-.charactersheet.tab-pane.charsheet.lang-en {
-    padding-left: 50px;
-}
+
 /*-----text-----*/
 
 h5 {
@@ -66,7 +64,7 @@ input[type="text"] {
 -----*/
 div.sheet-core-content { 
     display: none; 
-    width:840px;
+    width:900px;
 }
 
 .charsheet div[class^="sheet-section"] {     
@@ -77,7 +75,7 @@ div.sheet-core-content {
 	display: none;
 }
 .charsheet {
-    background: url('https://i.imgur.com/UVcMMbv.png');
+    background: url('https://i.imgur.com/avq8d2i.png');
     background-size:100%;
 }
 
@@ -311,7 +309,7 @@ input.sheet-aggravateddot:checked ~ span.sheet-aggravateddot {
     content: "/";
     text-align:center;
     padding-left:3px;
-    padding-bottom:3px;
+    padding-bottom:20px;
     color:black;
     text-shadow:none;
     font-weight:bold;
@@ -363,6 +361,7 @@ input.sheet-aggravateddot:checked ~ span.sheet-aggravateddot {
 input.sheet-whitedoth:checked + input.sheet-lethaldoth, { 
     z-index: 3; 
 }
+
 
 input.sheet-whitedoth:checked ~ span.sheet-whitedoth,
 input.sheet-lethaldoth:checked ~ span.sheet-lethaldoth,{ 
@@ -727,3 +726,4 @@ input.sheet-arrow[type="checkbox"]:checked + span::before
 	color: #3FB315;
     border: none;
 }
+

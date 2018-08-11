@@ -40,6 +40,7 @@ h2 {
 .sheet-header {
     width: 95%;
     padding-left: 3%;
+    margin-top: 20px;
 }
 
 .sheet-bio {
@@ -63,6 +64,10 @@ h2 {
     padding-left: 3%;
 }
 
+.repcontrol {
+    width: 92%;
+    padding-left: 4%;
+}
 /*-----textarea-----*/
 
 textarea {
@@ -371,7 +376,6 @@ input.sheet-aggravateddot:checked ~ span.sheet-aggravateddot {
    margin-left:auto;
    margin-right:auto;
 }
-
 /*-----Health and hunger------*/
 input.sheet-whitedoth:checked + input.sheet-lethaldoth, { 
     z-index: 3; 
